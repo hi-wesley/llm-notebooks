@@ -1,6 +1,6 @@
-# this is the formatting for title text
+# LLM recipes
 ## Overview
-This repository contains Jupyter notebooks demonstrating how to interact with and utilize various Large Language Models. It includes both cloud-based and locally hosted models. These examples can help anyone easily experiment and build applications with LLMs.
+This repository contains Jupyter notebooks demonstrating how to interact with and utilize various Large Language Models. It includes both cloud-based and locally hosted models. These examples can help anyone experiment with or build applications with LLMs.
 ## Repository Contents
 
 ### multimodel\_chat.ipynb
