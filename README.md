@@ -9,6 +9,11 @@ This repository contains Jupyter notebooks demonstrating how to interact with an
 * **Conversation History**: Explicitly tracked and updated after each chatbot response.
 * **System Prompts Handling**: Explores model-specific content policies by testing prompts with varying tones.
 
+### first\_gradio.iypnb
+* **Interactive UI with Gradio**: Uses (`gradio`) for rapid UI development, providing an easy-to-use, interactive web-based interface. Launches with parameters (`share=True, inbrowser=True`), allowing easy sharing and immediate browser opening.
+* **Multimodel Chat Integration**: Allows model selection dynamically with a dropdown menu.
+* **Error Handling and Logging**: Utilizes Python's built-in (`logging`) module to record errors.
+
 ### summarize\_webpage.ipynb
 * **OpenAI API Integration**: Sends requests and handles responses via the OpenAI API.
 * **Web Content Parsing**: Utilizes BeautifulSoup for webpage content extraction.
