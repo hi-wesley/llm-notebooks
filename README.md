@@ -14,6 +14,11 @@ This repository contains Jupyter notebooks demonstrating how to interact with an
 * **Multimodel Chat Integration**: Allows model selection dynamically with a dropdown menu.
 * **Error Handling and Logging**: Utilizes Python's built-in (`logging`) module to record errors.
 
+### ai\_pipelines.ipynb
+* **Demonstrates two AI pipelines**: Uses Hugging Face libraries and runs on Google Colab
+* **Text-to-Speech (Audio Generation)**: Uses the `microsoft/speecht5_tts` model to synthesize realistic speech audio from text prompts.
+* **Text-to-Image (Image Generation)**: Employs the `stabilityai/sd-turbo` model to rapidly generate images based on textual descriptions.
+
 ### stateful\_gradio.ipynb
 * **Stateful chat**: Maintains conversation history for contextual understanding.
 
@@ -46,6 +51,7 @@ This repository contains Jupyter notebooks demonstrating how to interact with an
   * [Google API key](https://console.cloud.google.com/apis/credentials)
   * [Anthropic API key](https://console.anthropic.com/settings/keys)
   * [DeepSeek API key](https://platform.deepseek.com/api_keys)
+  * [Hugging Face API key](https://huggingface.co/settings/tokens)
 ### Installation
 Clone this repository and set up your environment using the provided configuration file (`environment.yml`):
 ```bash
@@ -54,6 +60,7 @@ cd llms
 conda env create -f environment.yml
 conda activate llms
 ```
+Scripts that rely on Google Colab run in Google Colab and will not work on Jupyter Notebook
 ### Configuration
 Create a `.env` file at the root of your repository and add your API keys (replace placeholders with actual values):
 ```bash
@@ -61,11 +68,15 @@ OPENAI_API_KEY=your_openai_key
 GOOGLE_API_KEY=your_google_key
 ANTHROPIC_API_KEY=your_anthropic_key
 DEEPSEEK_API_KEY=your_deepseek_key
+For Google Colab scripts, import the .ipynb to Google Colab, click the key icon on the left sidebar and create a new entry.
+For name put HF_TOKEN and value put your Hugging Face API key, and give it notebook access.
 ```
 ## Usage
 Launch Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
+Launch Google Colab:
+On the top right click change runtime type to Python 3, hardware accelerator to T4 GPU, and connect to 
 ## License
 This repository is provided under the [MIT License](LICENSE).
