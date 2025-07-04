@@ -77,6 +77,6 @@ Launch Jupyter Notebook:
 jupyter notebook
 ```
 Launch Google Colab:
-On the top right click change runtime type to Python 3, hardware accelerator to T4 GPU, and connect to 
+On the top right click change runtime type to Python 3, hardware accelerator to T4 GPU, and connect to hosted runtime.
 ## License
 This repository is provided under the [MIT License](LICENSE).
