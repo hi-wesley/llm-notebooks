@@ -14,6 +14,10 @@ This repository contains Jupyter notebooks demonstrating how to interact with an
 * **Multimodel Chat Integration**: Allows model selection dynamically with a dropdown menu.
 * **Error Handling and Logging**: Utilizes Python's built-in (`logging`) module to record errors.
 
+### multiple\_pipelines.ipynb
+* **Showcases a broad spectrum of AI tasks using Hugging Face’s (`transformers`) and (`diffusers`)**: Sentiment analysis, named entity recognition, question answering with context, text summarization, translation, zero-shot classification, text generation, image generation, and audio generation pipelines
+* **Demonstrates prompts that can cause the pipelines to break**: Translation, text generation, image generation, and audio generation all break very easily
+
 ### ai\_pipelines.ipynb
 * **Demonstrates two AI pipelines**: Uses Hugging Face libraries and runs on Google Colab
 * **Text-to-Speech (Audio Generation)**: Uses the `microsoft/speecht5_tts` model to synthesize realistic speech audio from text prompts.
