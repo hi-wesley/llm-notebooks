@@ -1,4 +1,7 @@
 # LLM recipes
+
+![Screenshot](https://i.imgur.com/fo9qolN.png)
+
 ## Overview
 This repository contains Jupyter notebooks demonstrating how to interact with and utilize various Large Language Models. It includes both cloud-based and locally hosted models. These examples can help anyone experiment with or build applications with LLMs.
 ## Repository Contents
@@ -78,7 +81,7 @@ For name put HF_TOKEN and value put your Hugging Face API key, and give it noteb
 ## Usage
 Launch Jupyter Notebook:
 ```bash
-jupyter notebook
+jupyter lab
 ```
 Launch Google Colab:
 On the top right click change runtime type to Python 3, hardware accelerator to T4 GPU, and connect to hosted runtime.
