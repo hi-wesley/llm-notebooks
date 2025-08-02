@@ -1,4 +1,4 @@
-# LLM recipes
+# LLM Notebooks
 
 ![Screenshot](https://i.imgur.com/fo9qolN.png)
 
